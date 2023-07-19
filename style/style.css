@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     height: 130px;
     padding: 37px 200px;
 
@@ -182,6 +182,92 @@ span{
 .ii{
     margin-top: 20px;
 }
+footer{
+    
+height: 636px;
+flex-shrink: 0;
+background: #0B0223;
+}
+footer >.nav-first-part h3{
+    color: #FFF;
+}
+footer >.nav-first-part{
+    display: flex;
+    justify-content: center;
+}
+.footer-a {
+      display: flex;
+      justify-content: center;
+}
+.footer-a a{
+     margin-left: 30px;
+     text-decoration: none;
+     color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.footer-img img{
+    margin-left: 40px;
+
+}
+.footer-a-second{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.footer-a-second a{
+    color: rgba(255, 255, 255, 0.60);
+    padding-left: 50px;
+
+font-size: 16px;
+
+font-weight: 500;
+
+text-decoration: none;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+
+}
+.chose{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 427px;
+    margin-top: 30px;
+
+}
+.chose div{
+      padding: 10px;
+    display: flex;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background: #FFF;
+    margin: 40px;
+    
+}
+.chose :hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-color: #FF42A5;
+    
+    
+   
+    
+}
 @media screen and (max-width :500px){
     header{
         flex-direction: column;
@@ -192,11 +278,12 @@ span{
         flex-direction: column;
        
     }
-    /* .play-container{
-        flex-direction: column;
+    .play-container{
+        flex-direction:column;
        
         
-    } */
+    } 
+    
     .nav-item a{
         padding-bottom: 20px;
     }
@@ -219,6 +306,7 @@ span{
     .funny-content p{
           font-size: 20px;
     }
+  
 }
 @media screen and (min-width :500px) and (max-width :990px){
     header{
@@ -230,11 +318,11 @@ span{
         flex-direction: column;
        
     }
-    /* .play-container{
+     .play-container{
         flex-direction: column;
        
         
-    } */
+    } 
     .nav-item a{
         padding-bottom: 20px;
     }
